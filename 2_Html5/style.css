@@ -1,48 +1,13 @@
-.cor1, .cor2 {padding: 10px;}
-
-.cor1{background-color: #ccc;}
-
-.cor2{background-color: #999;}
-
-
-.span7{
+.col-md-6{
 	float: right;
-	position: relative;
-
-
-
+	margin-top: -47px;
+	margin-right: -7px;
+	max-width: 612px;
 }
 
-
-.span3{
-	 background-color: #0088cc;
-	 border-radius: 5px;
-	 min-width: 265px;
- 	 margin-top: 10%;
- 	 border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.ok{
-padding: 7px;
-
-margin-top: -18px;
--webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-
-}
-
-.pg a{
-	color: #fff;
-	float: bottom;
+.col-md-4{
+	background-color: #547388;
 
 
-}
-
-.login {
-
-	 position: relative;
-  	 font-size: 30px;
-    
 
 }
