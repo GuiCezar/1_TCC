@@ -1,12 +1,28 @@
-.span2 {background-color: #444
+.imd{
+	margin-right: -20px;
 
+}
+
+.retangulo{
+   width: 400px;
+   height: 140px;
+   background-color: #1a62ac;
+   border-radius: 7px;
+   margin-top: 140%;
 
 
 }
 
 
+form  {  
+margin:5% 0 0 15%;  
 
+}  
+input[name=email]  {
+	margin-top:5%;
+}
 
-.imd{
-	margin-right: -20px;	
+input[name=botao-ok]{
+float: right;
+
 }
