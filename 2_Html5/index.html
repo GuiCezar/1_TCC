@@ -1,48 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html >
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
 
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-
+  
 </head>
+
 <body>
+  <body>
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Bem-vindo</h1>
+			</div>
 
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span2 offset1">
-            <div class="retangulo">
-            	<form>
-            	<input type="text" name="email" placeholder="exemplo@email.com">	
-				<input type="password" name="senha">
-				</form>
-				<input type="button" name="botao-ok" value="Login">
+			<div class="login-form">
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="E-mail" id="login-name">
+				<label class="login-field-icon fui-user" for="login-name"></label>
+				</div>
 
+				<div class="control-group">
+				<input type="password" class="login-field" value="" placeholder="Senha" id="login-pass">
+				<label class="login-field-icon fui-lock" for="login-pass"></label>
+				</div>
 
-            </div>
-        </div>
-        
-
-
-
-
-
-
-
-        <div class="span6 offset3">
-  <div class="imd">
-  	<img src="img/login.png" alt="dentista">
-  </div>
-        </div>
-      </div>
-    </div>
-
- <script type="text/javascript" href="js/bootstrap.js"></script>
-	
+				<a class="btn btn-primary btn-large btn-block" href="#">Login</a>
+				<a class="login-link" href="#">Esqueci minha senha</a>
+			</div>
+		</div>
+	</div>
+</body>
+  
+  
 </body>
 </html>
